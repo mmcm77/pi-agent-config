@@ -1,6 +1,6 @@
 # Pi agent configuration
 
-This directory is the local, private source of truth for the reviewed Pi configuration. No remote is configured by default.
+This directory is the local source of truth for the reviewed Pi configuration. The `main` branch is backed up to the private GitHub repository [`mmcm77/pi-agent-config`](https://github.com/mmcm77/pi-agent-config).
 
 ## Tracked
 
