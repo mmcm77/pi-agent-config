@@ -1,0 +1,21 @@
+# Track only reviewed configuration. Everything else is local runtime state.
+*
+
+!.gitignore
+!README.md
+!SYSTEM.md
+!APPEND_SYSTEM.md
+!settings.json
+!versions.json
+
+!extensions/
+!extensions/**
+!skills/
+!skills/**
+!scripts/
+!scripts/**
+!patches/
+!patches/**
+
+.DS_Store
+**/.DS_Store

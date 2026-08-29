@@ -1,0 +1,12 @@
+diff --git a/npm/node_modules/pi-sessions/extensions/subagents/launch-target.ts b/npm/node_modules/pi-sessions/extensions/subagents/launch-target.ts
+--- a/npm/node_modules/pi-sessions/extensions/subagents/launch-target.ts
++++ b/npm/node_modules/pi-sessions/extensions/subagents/launch-target.ts
+@@ -21,7 +21,7 @@ export function createSubagentLaunchTarget(
+       "'subagent' delegates one task to a detached tmux worker and requests a report by default.",
+     requestResponseDefault: true,
+     bootstrapMode: "automatic",
+-    approveProjectTrust: true,
++    approveProjectTrust: false,
+     describeSubagentChild(input) {
+       return {
+         childSessionId: input.childSessionId,
